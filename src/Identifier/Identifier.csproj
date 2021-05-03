@@ -12,6 +12,8 @@
         <RepositoryUrl>https://github.com/teian/Identifier</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>id, snowflake, identity</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.0-beta</PackageVersion>
     </PropertyGroup>
 
 </Project>
