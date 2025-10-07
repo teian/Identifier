@@ -25,7 +25,7 @@ namespace Identifier.Tests
                 0,
                 DateTimeKind.Utc);
 
-            _Config = new SnowflakeConfig(42, 6, 15, epoch);
+            _Config = new SnowflakeConfig(42, 5, 16, epoch);
 
             _Id = new SnowflakeId(_GeneratorId, _Config);
             
