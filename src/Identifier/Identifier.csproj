@@ -6,14 +6,25 @@
         <Nullable>enable</Nullable>
         <Authors>Frank Gehann</Authors>
         <Description>A collection of Id algorithms for c#</Description>
-        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-        <PackageProjectUrl>https://github.com/teian/Identifier</PackageProjectUrl>
-        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/teian/Identifier</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageTags>id, snowflake, identity</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.0-beta</PackageVersion>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/teian/Identifier</PackageProjectUrl>
+        <PackageReleaseNotes>Release notes at https://github.com/teian/Identifier/releases</PackageReleaseNotes>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>id, snowflake, identity</PackageTags>   
+        <PackageVersion>1.0.0</PackageVersion>            
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.2.39" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../../LICENSE" Pack="true" PackagePath="/"/>
+        <None Include="../../README.md" Pack="true" PackagePath="/"/>
+    </ItemGroup>
 
 </Project>
